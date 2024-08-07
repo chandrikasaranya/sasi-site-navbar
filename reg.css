@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    margin: 0;
+    padding: 5px 20px;
+}
+::placeholder{ font-family: fantasy;
+
+}
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+fieldset{
+    
+    margin-left: 0;
+    margin-right: 50;
+    border-color: solid black;
+    border-width: medium;
+    border-radius: 8;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <h1 style="color: orange;font-family: cursive;text-align: center;">Register</h1>
+    <form>
+        <fieldset>
+            <legend><h3 style="font-family: cursive;">Register</h3></legend>
+        
+    <div>     
+        <input type="text" placeholder="first name" name="fname">
+    </div>
+    <div>
+        <input type="text" placeholder="second name" name="sname">
+    </div>
+    <div>
+        <input type="tel" placeholder="phone num" name="phone">
+    </div> 
+    <div>
+        <input type="datetime-local" placeholder="date of birth" name="dob">
+    </div>
+    <div><h4>gender :</h4><br>
+        <input type="radio" name="gender">male<br>
+        <input type="radio" name="gender">female<br>
+        <input type="radio" name="gender">other<br>
+        <input type="radio" name="gender">donot mention<br>
+    </div>
+    <div><h4>skills :</h4><br>
+        <input type="checkbox">c<br>
+        <input type="checkbox">c++<br>
+        <input type="checkbox">java<br>
+        <input type="checkbox">python<br>
+        <input type="checkbox">mongo db<br>
+        <input type="checkbox">node js / express js<br>
+        <input type="checkbox">html-css-javascript<br>
+    </div>
+    <div>
+        <input type="email" placeholder="email@gmail.com">
+    </div>
+    <div>     
+        <h3>Password :</h3><input type="password" placeholder="enter new password" name="ps">
+    </div>
+    <div>     
+        <h3> confirm Password :</h3><input type="password" placeholder="confirm password" name="ps">
+    </div>
+    <div><h4>select uniform color :</h4><br>
+    <input type="color" name="color" id="value">
+    </div>
+    <div><h4>Resume :</h4><br>
+    <input type="file" placeholder="Resume">
+    </div>
+    <div><h4>Joining date :</h4><br>
+       <input type="datetime-local" placeholder="join date">
+    </div>
+    <div>
+        <h4>Age ranges from :</h4><br>
+        18<input type="range">100
+        <input type="number" placeholder="Age in number">
+    </div>
+    <table>
+        <tr>
+            <th>course</th>
+            <th>institute</th>
+            <th>percentage</th>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+        </tr>
+
+    </table>
+    <div><h4>Role :</h4><br>
+        <select>
+            <optgroup><h2>Technical</h2><br>
+                <option>Hr</option>
+                <option>manager</option>
+                <option>full stack developer</option><br>
+                <option>Mean stack developer</option><br>
+                <option>Mern stack developer</option><br>
+                <option>backend developer</option><br>
+                <option>front end developer</option><br>
+            </optgroup>
+            <optgroup><h2>Non Technical</h2><br>
+                <option>debugging</option>
+                <option>UI/UX</option><br>
+                <option>deveops</option><br>
+                <option>Testing</option><br>
+                <option>code reviewr</option><br>
+                <option>sales manager</option><br>
+             </optgroup>   
+        </select>
+    </div>
+    <div>
+        <input type="url" placeholder="linkedin">
+    </div>
+    <div><h2>Remarks/suggestions</h2><br>
+        <textarea name="remarks" id="value" cols="30" rows="10">Remarks</textarea>
+    </div>
+    <div>
+        <input type="submit">
+        <input type="button" value="Reset">
+    </div>
+</fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+div{
+    margin: 0;
+    padding: 10px 50px;
+}
+fieldset{
+    
+    margin-left: 0;
+    margin-right: 50;
+    border-color: solid black;
+    border-width: medium;
+}
+::placeholder{ font-family: fantasy;
+
+}
+body{background-color: darkgray;
+    
+}
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
